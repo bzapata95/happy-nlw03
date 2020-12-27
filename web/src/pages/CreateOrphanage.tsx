@@ -69,7 +69,7 @@ export default function CreateOrphanage() {
     alert('Registro realizado con éxito!');
     history.push('/app');
 
-  },[name, about, position, instructions, open_on_weekends, opening_hours])
+  },[name, about, position, instructions, open_on_weekends, opening_hours, images, history])
 
   
 
